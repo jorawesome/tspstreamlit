@@ -3,15 +3,15 @@ import streamlit as st
 
 import pandas as pd
 import numpy
-import itertools
-import datetime
-from python_tsp.exact import solve_tsp_dynamic_programming,solve_tsp_brute_force
-from copy import deepcopy
-from datetime import datetime, timedelta, time
-import math
+#import itertools
+#import datetime
+#from python_tsp.exact import solve_tsp_dynamic_programming,solve_tsp_brute_force
+#from copy import deepcopy
+#from datetime import datetime, timedelta, time
+#import math
 import random
 import os.path
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 #Data importeren
 pad = 'dummydataset2.xlsx'
