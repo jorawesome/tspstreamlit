@@ -92,7 +92,7 @@ with st.form("variable_editor"):
     st.subheader("Wijzig de onderstaande waarden")
 
     #start_dag = st.number_input("Start dag", value=0)
-    start_dag = st.selectbox("tart dag", options=[0, 1])
+    start_dag = st.selectbox("Start dag", options=[0, 1])
     cap_bak = st.number_input("Capaciteit bak", value=6)
     cap_kar = st.number_input("Capaciteit kar", value=20)
     submitted = st.form_submit_button("🚀 Start algoritme")
